@@ -13,7 +13,7 @@ return new \Phalcon\Config([
         'host'        => 'localhost',
         'username'    => 'root',
         'password'    => '',
-        'dbname'      => 'test',
+        'dbname'      => 'avr_myits_frs',
         'charset'     => 'utf8',
     ],
     'application' => [
