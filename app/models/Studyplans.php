@@ -1,19 +1,25 @@
 <?php
 
-class CourseStudyplan extends \Phalcon\Mvc\Model
+class Studyplans extends \Phalcon\Mvc\Model
 {
 
     /**
      *
      * @var integer
      */
-    public $studyplan_id;
+    public $id;
 
     /**
      *
      * @var string
      */
-    public $course_id;
+    public $user_id;
+
+    /**
+     *
+     * @var integer
+     */
+    public $semester;
 
     /**
      * Initialize method for model.
@@ -21,14 +27,14 @@ class CourseStudyplan extends \Phalcon\Mvc\Model
     public function initialize()
     {
         $this->setSchema("avr_myits_frs");
-        $this->setSource("course_studyplan");
+        $this->setSource("studyplans");
     }
 
     /**
      * Allows to query a set of records that match the specified conditions
      *
      * @param mixed $parameters
-     * @return CourseStudyplan[]|CourseStudyplan|\Phalcon\Mvc\Model\ResultSetInterface
+     * @return Studyplans[]|Studyplans|\Phalcon\Mvc\Model\ResultSetInterface
      */
     public static function find($parameters = null): \Phalcon\Mvc\Model\ResultsetInterface
     {
@@ -39,7 +45,7 @@ class CourseStudyplan extends \Phalcon\Mvc\Model
      * Allows to query the first record that match the specified conditions
      *
      * @param mixed $parameters
-     * @return CourseStudyplan|\Phalcon\Mvc\Model\ResultInterface
+     * @return Studyplans|\Phalcon\Mvc\Model\ResultInterface
      */
     public static function findFirst($parameters = null)
     {
