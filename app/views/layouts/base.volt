@@ -24,7 +24,7 @@
                             <nav class="mainmenu">
                                 <div class="logo">
                                     <a href="/">
-                                        <img src="{{ url("img/icons/logo.PNG") }}" alt="">
+                                        <img src="{{ url(img/icons/myits-academics-blue.png) }}">
                                     </a>
                                 </div>
                             </nav>
