@@ -17,6 +17,11 @@
         <a-entity text__welcome="align: center; color: #000366; value: Selamat Datang, Yemima!; width: 1.54" id="welcometext" scale="1.15 4.25 1" position="-1.156 3.47771 -2.72679"></a-entity>
     </a-entity>
 
+    <!-- Logout -->
+    <a-entity text__welcome="align: center; color: #000366; value: logout" id="logout" position="3.6 0 0">
+        <a-entity text__welcome="align: center; color: #000366; value: Keluar; width: 1.54" id="welcometext" scale="1.15 4.25 1" position="-1.156 3.47771 -2.72679"></a-entity>
+    </a-entity>
+
     <!-- main page -->
     <a-entity id="matkul" geometry="depth: 0.2; height: 1.97; width: 3.42" position="0.09 2.18 -2.69" material="color: #ffffff; emissive: #ffffff">
         <a-entity id="matkul_title" text__matkul="align: center; color: #000000; value: Mata Kuliah; width: 3.5" position="0 0.7 0.1"></a-entity>        

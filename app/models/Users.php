@@ -5,7 +5,7 @@ class Users extends \Phalcon\Mvc\Model
 
     /**
      *
-     * @var string
+     * @var integer
      */
     public $id;
 
@@ -14,6 +14,18 @@ class Users extends \Phalcon\Mvc\Model
      * @var string
      */
     public $name;
+
+    /**
+     *
+     * @var string
+     */
+    public $username;
+
+    /**
+     *
+     * @var string
+     */
+    public $password;
 
     /**
      * Initialize method for model.
@@ -41,7 +53,7 @@ class Users extends \Phalcon\Mvc\Model
      * @param mixed $parameters
      * @return Users|\Phalcon\Mvc\Model\ResultInterface
      */
-    public static function findFirst($parameters = null)
+    public static function findFirst($parameters = null): ?\Phalcon\Mvc\ModelInterface
     {
         return parent::findFirst($parameters);
     }
