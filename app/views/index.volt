@@ -13,6 +13,7 @@
         <script src="https://github.com/aframevr/aframe/blob/v1.0.4/dist/aframe-master.js"></script>
     </head>
     <body>
+        <script type="text/javascript" src="js/app.js"></script>
         <div class="container">
             {{ content() }}
         </div>

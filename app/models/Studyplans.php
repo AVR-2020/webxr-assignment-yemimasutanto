@@ -28,6 +28,13 @@ class Studyplans extends \Phalcon\Mvc\Model
     {
         $this->setSchema("avr_myits_frs");
         $this->setSource("studyplans");
+
+        $this->belongsTo(
+            'course_id',
+            Courses::class,
+            'id',
+            ['alias' => 'course']
+        );
     }
 
     /**
@@ -47,7 +54,7 @@ class Studyplans extends \Phalcon\Mvc\Model
      * @param mixed $parameters
      * @return Studyplans|\Phalcon\Mvc\Model\ResultInterface
      */
-    public static function findFirst($parameters = null)
+    public static function findFirst($parameters = null): ?\Phalcon\Mvc\ModelInterface
     {
         return parent::findFirst($parameters);
     }
