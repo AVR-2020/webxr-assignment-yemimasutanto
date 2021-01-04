@@ -4,7 +4,6 @@
 
 <a-scene>
     <a-assets>
-        <img id="boxTexture" src="https://i.imgur.com/mYmmbrp.jpg">
         <img id="skyTexture" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg">
         <img id="logout-icon" src="img/logout.png">
         <img id="app-logo" src="img/myits-academics-blue.png">
@@ -37,8 +36,7 @@
             align: center;
             color: #000066;
             value: Selamat Datang, Yemima!;
-            width: 6;
-        "
+            width: 6;"
         id="welcome"
         position="0 3.5 -3"
     ></a-entity>
@@ -60,8 +58,7 @@
                 align: center;
                 color: #000000;
                 value: Mata Kuliah;
-                width: 3.5;
-            "
+                width: 3.5;"
             position="0 1 0.1"
         ></a-entity>
 

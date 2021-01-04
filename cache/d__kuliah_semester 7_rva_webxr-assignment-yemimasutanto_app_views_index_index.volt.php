@@ -109,33 +109,6 @@
             <?php $ypos -= 0.35; ?>
         <?php } ?>
     </a-entity>
-
-        
-    
-    <!-- <a-entity
-        id="menu"
-        position="0 1.5 -0.5"
-        rotation="-45 0 0"
-        visible="false">
-        <a-entity slider="" position="0 0.1 0"><a-entity geometry="height: 0.01; width: 0.5; depth: 0.01" material="color: white"></a-entity><a-entity geometry="primitive: cylinder; radius: 0.02; height: 0.05" material="color: #3a50c5" pinchable="pinchDistance: 0.05" rotation="90 0 0" color-change=""></a-entity></a-entity>
-        <a-entity
-            id="sphereButton"
-            button="label: sphere"
-            position="-0.15 0 0"
-            geometry="width: 0.11; height: 0.05; depth: 0.04"
-            material="color: #3a50c5"
-            pressable="">
-            <a-entity
-                position="0 0 0.02"
-                text="value: sphere; color: white; align: center"
-                scale="0.75 0.75 0.75"
-            ></a-entity>
-        </a-entity>
-        <a-entity id="boxButton" button="label: box" position="" geometry="width: 0.11; height: 0.05; depth: 0.04" material="color: green" pressable=""><a-entity position="0 0 0.02" text="value: box; color: white; align: center" scale="0.75 0.75 0.75"></a-entity></a-entity>
-        <a-entity id="torusButton" button="label: torus" position="0.15 0 0" geometry="width: 0.11; height: 0.05; depth: 0.04" material="color: #3a50c5" pressable=""><a-entity position="0 0 0.02" text="value: torus; color: white; align: center" scale="0.75 0.75 0.75"></a-entity></a-entity>
-        <a-entity id="darkModeButton" button="label: Dark Mode; width: 0.2; toggable: true" position="0 -0.1 0" geometry="width: 0.2; height: 0.05; depth: 0.04" material="color: #3a50c5" pressable=""><a-entity position="0 0 0.02" text="value: Dark Mode; color: white; align: center" scale="0.75 0.75 0.75"></a-entity></a-entity>
-        <a-entity geometry="width: 0.6; height: 0.4; depth: 0.01" material="color: gray" position="0 0 -0.025"></a-entity>
-    </a-entity> -->
 </a-scene>
 
 <!-- hex biru: #1167b1 -->
